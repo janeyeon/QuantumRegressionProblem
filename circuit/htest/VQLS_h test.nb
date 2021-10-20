@@ -248,7 +248,7 @@ Cell[BoxData[{
  RowBox[{
   RowBox[{"Export", "[", 
    RowBox[{"\"\<htest_long.txt\>\"", ",", "mml"}], "]"}], 
-  "\[IndentingNewLine]", "\[IndentingNewLine]"}], "\n", 
+  "\[IndentingNewLine]", "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"result", " ", "=", 
    RowBox[{"Simplify", "[", 

@@ -7,9 +7,9 @@ from dataExtraction import h_test_short_ex, h_test_long_ex, specialh_long_ex, sp
 
 def had_test_circuit_short(parameters): 
     # 그리고 대입 
-    # result = h_test_short_sym_ex.subs({a : parameters[0][0], b : parameters[0][1], c : parameters[0][2], d : parameters[1][0], e : parameters[1][1], f : parameters[1][2], g : parameters[2][0], h : parameters[2][1], i : parameters[2][2]})
+    result = h_test_short_sym_ex.subs({a : parameters[0][0], b : parameters[0][1], c : parameters[0][2], d : parameters[1][0], e : parameters[1][1], f : parameters[1][2], g : parameters[2][0], h : parameters[2][1], i : parameters[2][2]})
 
-    result = h_test_short_sym_ex.subs({a : parameters[0][0], b : parameters[1][0], c : parameters[2][0], d : parameters[0][1], e : parameters[1][1], f : parameters[2][1], g : parameters[0][2], h : parameters[1][2], i : parameters[2][2]})
+    # result = h_test_short_sym_ex.subs({a : parameters[0][0], b : parameters[1][0], c : parameters[2][0], d : parameters[0][1], e : parameters[1][1], f : parameters[2][1], g : parameters[0][2], h : parameters[1][2], i : parameters[2][2]})
 
     return result 
 
