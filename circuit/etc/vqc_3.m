@@ -57,6 +57,9 @@ num_mul(s_100)
 
 s_200 = simplify(r,200)
 num_mul(s_200)
+
+save('result.mat', r, s_10, s_30, s_50, s_100, s_200)
+
 %%
 d_a1_0 = diff(r,alpha1)
 d_b1_0 = diff(r,beta1)
